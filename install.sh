@@ -35,8 +35,8 @@ echo -e "${WHITE}              [1] Kali Linux / Parrot-Os "
 echo -e "${WHITE}              [0] Exit "
 echo -n -e "Z4nzu >> "
 read choice
-INSTALL_DIR="/usr/share/doc/hackingtool"
-BIN_DIR="/usr/bin/"
+INSTALL_DIR="/usr/local/share/doc/hackingtool"
+BIN_DIR="/usr/local/bin/"
 if [ $choice == 1 ]; then 
 	echo "[*] Checking Internet Connection .."
 	wget -q --tries=10 --timeout=20 --spider https://google.com
