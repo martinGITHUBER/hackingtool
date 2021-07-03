@@ -12,11 +12,11 @@ sudo chmod +x /etc/
 
 clear
 
-sudo chmod +x /usr/share/doc
+sudo chmod +x /usr/local/share/doc
 
 clear
 
-sudo rm -rf /usr/share/doc/hackingtool/
+sudo rm -rf /usr/local/share/doc/hackingtool/
 
 clear
 
