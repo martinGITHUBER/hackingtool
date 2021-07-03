@@ -60,7 +60,7 @@ if [ $choice == 1 ]; then
 		echo "#!/bin/bash
 		python3 $INSTALL_DIR/hackingtool.py" '${1+"$@"}' > hackingtool;
 		sudo chmod +x hackingtool;
-		sudo cp hackingtool /usr/bin/;
+		sudo cp hackingtool $BIN_DIR;
 		rm hackingtool;
 		echo ""; 
 		echo "[✔] Trying to installing Requirements ..."
